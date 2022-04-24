@@ -1,0 +1,15 @@
+{
+  "name": "pdfconverter",
+  "version": "1.0.0",
+  "description": "this is simple doc converter app",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Ali Hassan",
+  "license": "ISC",
+  "dependencies": {
+    "@pdftron/pdfnet-node": "^9.2.0-1",
+    "express": "^4.18.0"
+  }
+}
